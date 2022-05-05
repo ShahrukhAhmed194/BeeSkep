@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Ecommerce</title>
+    <title>Bee Skeep</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -33,6 +33,7 @@
         margin: 30px;
     }
     .trending-item{
+        padding-right: 5px;
         float: left;
         width: 20%;
     }
@@ -45,6 +46,12 @@
     .search-box{
         width: 500px !important;
     }
+    .cart-list-divider{
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    
 </style>
 <!-- <script>
     $(document).ready(function()
